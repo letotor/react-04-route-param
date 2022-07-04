@@ -1,4 +1,8 @@
-.App {
+body{
   font-family: sans-serif;
   text-align: center;
+  background: #333;
+  color:rgb(95, 95, 245);
+  margin: 0;
+  padding: 0;
 }
