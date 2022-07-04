@@ -6,14 +6,26 @@ const Navbar = () => {
   const user2 = "victor";
 
   return (
+
     <nav>
       <ul>
-        <li key={1}><Link to={"/"}>Home</Link></li>
-        <li key={2}><Link to={`/user-profile/${user1}`}>{user1}</Link></li>
-        <li key={3}><Link to={`/user-profile/${user2}`}>{user2}</Link></li>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+       
+        <ul>
+          <li>
+            <Link to={`user-profile/${user1}`}>{user1}</Link>
+          </li>
+          <li>
+            <Link to={`user-profile/${user2}`}>{user2}</Link>
+          </li>
+         
+        </ul>
       </ul>
     </nav>
   );
+  
 }
 
 export default Navbar;

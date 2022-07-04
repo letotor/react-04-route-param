@@ -10,13 +10,12 @@ export default function App() {
   return (
     <Router>
       <div>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/user-profile/:githubLogin" element={<UserProfile/>} />
-        
-        </Routes>
-      </div>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/user-profile/:githubLogin" element={<UserProfile />} />
+          </Routes>
+        </div>
     </Router>
   );
 }

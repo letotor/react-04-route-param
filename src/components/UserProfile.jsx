@@ -3,12 +3,13 @@ import { useParams } from 'react-router-dom';
 
 
 function UserProfile() {
-    const {githubPrfl} = useParams();
+    const { githubLogin } = useParams();
+    console.log(githubLogin);
     return (
         <div>
-            <p>Hello {githubPrfl}!</p>
+            <p>Bonjour {githubLogin}</p>
         </div>
-    );
+    )
 }
 
 export default UserProfile;
