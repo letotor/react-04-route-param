@@ -6,3 +6,13 @@ body{
   margin: 0;
   padding: 0;
 }
+
+ul,li {
+  text-decoration: none;
+  list-style: none;
+}
+
+a:link,a:visited{
+  text-decoration: none;
+  color:white;
+}
